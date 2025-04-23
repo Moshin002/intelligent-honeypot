@@ -1,0 +1,13 @@
+{
+    "ssh": {
+        "banner": "SSH-2.0-OpenSSH_7.9p1",
+        "prompt": "login: ",
+        "fake_fs": {
+            "/etc/passwd": "root:x:0:0:root:/root:/bin/bash"
+        }
+    },
+    "http": {
+        "response": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<h1>Admin Portal</h1>",
+        "malware_triggers": ["/download"]
+    }
+}
