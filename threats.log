@@ -1,0 +1,11 @@
+2025-04-25 04:15:21,358 - INFO - ✅ Server starting on 0.0.0.0:5000 (IPv4 only)
+2025-04-25 04:15:21,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-04-25 04:15:21,368 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 04:16:02,836 - INFO - 172.17.0.1 - - [25/Apr/2025 04:16:02] "GET / HTTP/1.1" 200 -
+2025-04-25 04:17:58,927 - INFO - 172.17.0.1 - - [25/Apr/2025 04:17:58] "GET / HTTP/1.1" 200 -
+2025-04-25 04:18:14,774 - INFO - 172.17.0.1 - - [25/Apr/2025 04:18:14] "GET /?id=1'%20OR%201=1-- HTTP/1.1" 200 -
+2025-04-25 04:18:22,173 - WARNING - ADMIN SCAN ATTEMPTED by 172.17.0.1
+2025-04-25 04:18:22,173 - INFO - 172.17.0.1 - - [25/Apr/2025 04:18:22] "GET /wp-admin HTTP/1.1" 200 -

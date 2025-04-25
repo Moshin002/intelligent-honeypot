@@ -1,0 +1,5 @@
+### IPv4 Request
+GET http://127.0.0.1:5000 HTTP/1.1
+
+### IPv6 Request
+GET http://[::1]:5000 HTTP/1.1
